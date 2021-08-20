@@ -74,6 +74,7 @@ string get_cipher(string plain, int argument)
         int temp_char_dec = (int)plain[i] + argument;
         if(isalpha(plain[i]))
         {
+            //if temp_char + key is more than 'Z', 'z'. To go on start counting
             if (((int)plain[i] <= 90 && temp_char_dec > 90) || ((int)plain[i] >= 90 && temp_char_dec > 122))
             {
                 temp_char_dec = temp_char_dec - 26;
