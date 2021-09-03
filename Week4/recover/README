@@ -1,0 +1,3 @@
+Goal: To write a program in C that can recover JPEG images from a forensic file.
+The program must accept one and only one command line argument, the name of the file the images will be recovered from.
+The program should output each of the JPEG images recovered as a separate file. There are 50 in total to be recovered from the card.raw file provided.
