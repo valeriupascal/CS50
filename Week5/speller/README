@@ -1,0 +1,1 @@
+Goal: To implement a spell checker program in C. The program is partially written, but we must write functions that both load and unload the dictionary into memory, as well as checking if each word in the given text is in the dictionary and thus spelled correctly.
